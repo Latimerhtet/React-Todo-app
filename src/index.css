@@ -1,0 +1,71 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputBox {
+  width: 400px;
+  padding: 10px;
+  border: none;
+  background-color: antiquewhite;
+  outline: none;
+}
+.inputBox::placeholder {
+  font-size: 20px;
+}
+.inputContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.todo {
+  display: flex;
+  gap: 20px;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.todoText {
+  display: flex;
+  gap: 10px;
+}
+.submitBtn {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #353434;
+  letter-spacing: 0.1rem;
+}
+label {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  border: none;
+}
+.deleteBtn,
+.editBtn {
+  border: none;
+  background-color: brown;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.editBtn {
+  background-color: aqua;
+  margin-left: 10px;
+  color: rgb(87, 87, 83);
+}
+.heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
